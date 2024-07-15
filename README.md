@@ -41,6 +41,12 @@ This project aims to develop a comprehensive radio streaming application using a
 7. Deployment
 
 ## 🏁 Getting Started
+## Need a archive .env whith
+DB_HOST=""
+DB_USER=""
+DB_PASSWORD=""
+DB_NAME=""
+JWT_SECRET=""
 
 ```bash
 # Clone the repository
