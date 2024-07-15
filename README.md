@@ -17,10 +17,8 @@ This project aims to develop a comprehensive radio streaming application using a
 
 - **Backend**: Microservices architecture
 - **Frontend**: React
-- **Database**: MySQL (managed with phpMyAdmin)
+- **Database**: MySQL
 - **Authentication**: Firebase Auth
-- **Server**: Hosted on Hospedando.mx (using cPanel)
-- **API Gateway**: For managing and routing requests to appropriate microservices
 
 ## 🏗 Microservices Structure
 
