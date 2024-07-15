@@ -46,7 +46,7 @@ This project aims to develop a comprehensive radio streaming application using a
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/radio-streaming-app.git
+git clone https://github.com/multimediosInformativos/radio-platform.git
 
 # Navigate to the project directory
 cd radio-streaming-app
