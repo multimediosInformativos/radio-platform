@@ -20,8 +20,14 @@ db.connect((err) => {
 });
 
 // Crear un endpoint de prueba
-app.get('/', (req, res) => {
-    res.send('Microservicio de Autenticación');
+app.get('/test-db', (req, res) => {
+    db.query('SELECT * FROM Users', (err, results) => {
+        if (err) {
+            res.status(500).send('Error en la consulta a la base de datos');
+            return;
+        }
+        res.json(results);
+    });
 });
 
 // Iniciar el servidor

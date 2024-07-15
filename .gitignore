@@ -1,0 +1,19 @@
+# Ignora archivos con extensión .log
+*.log
+
+# Ignora archivos con extensión .env
+*.env
+
+# Ignora archivos con extensión .tmp
+*.tmp
+
+# Ignora la carpeta node_modules
+node_modules/
+
+# Ignora archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Ignora archivos de sistema operativo
+.DS_Store
+Thumbs.db
